@@ -12,23 +12,11 @@ iostream
 SFML/Graphics.hpp
 -
 
-/Users/lucaletroye/Downloads/start_code(1)/Game.cpp
-Game.h
-/Users/lucaletroye/Downloads/start_code(1)/Game.h
+/Users/lucaletroye/Downloads/start_code(1)/Room.cpp
 Room.h
 /Users/lucaletroye/Downloads/start_code(1)/Room.h
-fstream
-/Users/lucaletroye/Downloads/start_code(1)/fstream
-iostream
-/Users/lucaletroye/Downloads/start_code(1)/iostream
-
-/Users/lucaletroye/Downloads/start_code(1)/Game.h
-Room.h
-/Users/lucaletroye/Downloads/start_code(1)/Room.h
-iostream
--
-tuple
--
+Entity.h
+/Users/lucaletroye/Downloads/start_code(1)/Entity.h
 
 /Users/lucaletroye/Downloads/start_code(1)/Room.h
 Entity.h

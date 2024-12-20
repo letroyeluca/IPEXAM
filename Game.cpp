@@ -176,7 +176,7 @@ void Game::loadMap(const std::string& filename) {
         }
     }
 
-    get<0>(currentRoomMatrix) = 1;
+    get<0>(currentRoomMatrix) = 0;
     get<1>(currentRoomMatrix) = 1;
 }
 

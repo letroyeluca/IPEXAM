@@ -19,12 +19,27 @@ void Room::render(sf::RenderWindow* window) const {
 
 void Room::update(sf::Event * event) {
     vector<Entity*> walls;
+    vector<Entity*> weapons;
+    vector<Entity*> enemys;
     Position oldplayerpos {0,0};
     Position oldWallPos {0,0};
+    int index = 0;
     bool kamercheck = false;
     for (Entity* entity : entities) {
         if (auto* wall = dynamic_cast<Wall*>(entity)){
             walls.push_back(wall);
+        }
+        if (auto* weapon = dynamic_cast<Weapon*>(entity)) {
+            if (this->playerptr->standsOn(weapon)) {
+                this->playerptr->setAttackPower(1);
+                this->removeEntity(weapon);  // Remove the weapon instead of the player
+                
+            }
+        }
+        if (auto* enemy = dynamic_cast<Enemy*>(entity)){
+            if(this->playerptr->standsOn(enemy) && this->playerptr->getAttackPower() == 1){
+                this->removeEntity(enemy);
+            }
         }
         if (auto* player = dynamic_cast<Player*>(entity)){
             if (!kamercheck) {
@@ -37,6 +52,7 @@ void Room::update(sf::Event * event) {
             }
 
         }
+        index++;
     }
 
     for(Entity* entity : walls){
@@ -63,12 +79,9 @@ void Room::addEntity(Entity* entitieToAdd) {
     entities.push_back(entitieToAdd);
 }
 
-void Room::removeEntity(Entity* entitieToRemove){
-    int i = 0;
-    for (Entity* entity : entities) {
-        if (auto* p = dynamic_cast<Player*>(entity)) {
-            entities.erase(entities.begin() + i);
-        }
-        i++;
+void Room::removeEntity(Entity* entityToRemove) {
+    auto it = std::find(entities.begin(), entities.end(), entityToRemove);
+    if (it != entities.end()) {
+        entities.erase(it);
     }
 }

@@ -53,10 +53,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/lucaletroye/Downloads/start_code(1)"
+CMAKE_SOURCE_DIR = "/Users/lucaletroye/Desktop/start_code(1)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/project.dir/depend.make
@@ -67,56 +67,56 @@ include CMakeFiles/project.dir/progress.make
 include CMakeFiles/project.dir/flags.make
 
 CMakeFiles/project.dir/main.cpp.o: CMakeFiles/project.dir/flags.make
-CMakeFiles/project.dir/main.cpp.o: /Users/lucaletroye/Downloads/start_code(1)/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/project.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project.dir/main.cpp.o -c "/Users/lucaletroye/Downloads/start_code(1)/main.cpp"
+CMakeFiles/project.dir/main.cpp.o: /Users/lucaletroye/Desktop/start_code(1)/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/project.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project.dir/main.cpp.o -c "/Users/lucaletroye/Desktop/start_code(1)/main.cpp"
 
 CMakeFiles/project.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/lucaletroye/Downloads/start_code(1)/main.cpp" > CMakeFiles/project.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/lucaletroye/Desktop/start_code(1)/main.cpp" > CMakeFiles/project.dir/main.cpp.i
 
 CMakeFiles/project.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/lucaletroye/Downloads/start_code(1)/main.cpp" -o CMakeFiles/project.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/lucaletroye/Desktop/start_code(1)/main.cpp" -o CMakeFiles/project.dir/main.cpp.s
 
 CMakeFiles/project.dir/Game.cpp.o: CMakeFiles/project.dir/flags.make
-CMakeFiles/project.dir/Game.cpp.o: /Users/lucaletroye/Downloads/start_code(1)/Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/project.dir/Game.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project.dir/Game.cpp.o -c "/Users/lucaletroye/Downloads/start_code(1)/Game.cpp"
+CMakeFiles/project.dir/Game.cpp.o: /Users/lucaletroye/Desktop/start_code(1)/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/project.dir/Game.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project.dir/Game.cpp.o -c "/Users/lucaletroye/Desktop/start_code(1)/Game.cpp"
 
 CMakeFiles/project.dir/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project.dir/Game.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/lucaletroye/Downloads/start_code(1)/Game.cpp" > CMakeFiles/project.dir/Game.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/lucaletroye/Desktop/start_code(1)/Game.cpp" > CMakeFiles/project.dir/Game.cpp.i
 
 CMakeFiles/project.dir/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project.dir/Game.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/lucaletroye/Downloads/start_code(1)/Game.cpp" -o CMakeFiles/project.dir/Game.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/lucaletroye/Desktop/start_code(1)/Game.cpp" -o CMakeFiles/project.dir/Game.cpp.s
 
 CMakeFiles/project.dir/Room.cpp.o: CMakeFiles/project.dir/flags.make
-CMakeFiles/project.dir/Room.cpp.o: /Users/lucaletroye/Downloads/start_code(1)/Room.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/project.dir/Room.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project.dir/Room.cpp.o -c "/Users/lucaletroye/Downloads/start_code(1)/Room.cpp"
+CMakeFiles/project.dir/Room.cpp.o: /Users/lucaletroye/Desktop/start_code(1)/Room.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/project.dir/Room.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project.dir/Room.cpp.o -c "/Users/lucaletroye/Desktop/start_code(1)/Room.cpp"
 
 CMakeFiles/project.dir/Room.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project.dir/Room.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/lucaletroye/Downloads/start_code(1)/Room.cpp" > CMakeFiles/project.dir/Room.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/lucaletroye/Desktop/start_code(1)/Room.cpp" > CMakeFiles/project.dir/Room.cpp.i
 
 CMakeFiles/project.dir/Room.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project.dir/Room.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/lucaletroye/Downloads/start_code(1)/Room.cpp" -o CMakeFiles/project.dir/Room.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/lucaletroye/Desktop/start_code(1)/Room.cpp" -o CMakeFiles/project.dir/Room.cpp.s
 
 CMakeFiles/project.dir/Entity.cpp.o: CMakeFiles/project.dir/flags.make
-CMakeFiles/project.dir/Entity.cpp.o: /Users/lucaletroye/Downloads/start_code(1)/Entity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/project.dir/Entity.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project.dir/Entity.cpp.o -c "/Users/lucaletroye/Downloads/start_code(1)/Entity.cpp"
+CMakeFiles/project.dir/Entity.cpp.o: /Users/lucaletroye/Desktop/start_code(1)/Entity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/project.dir/Entity.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project.dir/Entity.cpp.o -c "/Users/lucaletroye/Desktop/start_code(1)/Entity.cpp"
 
 CMakeFiles/project.dir/Entity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project.dir/Entity.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/lucaletroye/Downloads/start_code(1)/Entity.cpp" > CMakeFiles/project.dir/Entity.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/lucaletroye/Desktop/start_code(1)/Entity.cpp" > CMakeFiles/project.dir/Entity.cpp.i
 
 CMakeFiles/project.dir/Entity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project.dir/Entity.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/lucaletroye/Downloads/start_code(1)/Entity.cpp" -o CMakeFiles/project.dir/Entity.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/lucaletroye/Desktop/start_code(1)/Entity.cpp" -o CMakeFiles/project.dir/Entity.cpp.s
 
 # Object files for target project
 project_OBJECTS = \
@@ -137,7 +137,7 @@ project: /usr/local/lib/libsfml-graphics.2.6.2.dylib
 project: /usr/local/lib/libsfml-window.2.6.2.dylib
 project: /usr/local/lib/libsfml-system.2.6.2.dylib
 project: CMakeFiles/project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable project"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/project.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -149,6 +149,6 @@ CMakeFiles/project.dir/clean:
 .PHONY : CMakeFiles/project.dir/clean
 
 CMakeFiles/project.dir/depend:
-	cd "/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/lucaletroye/Downloads/start_code(1)" "/Users/lucaletroye/Downloads/start_code(1)" "/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug" "/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug" "/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug/CMakeFiles/project.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/lucaletroye/Desktop/start_code(1)" "/Users/lucaletroye/Desktop/start_code(1)" "/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug" "/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug" "/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug/CMakeFiles/project.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/project.dir/depend
 

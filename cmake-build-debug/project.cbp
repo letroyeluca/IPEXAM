@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug"/>
+				<Option working_dir="/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="project">
-				<Option output="/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug/project" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug"/>
+				<Option output="/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug/project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -31,15 +31,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 project"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 project"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="project/fast">
-				<Option output="/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug/project" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug"/>
+				<Option output="/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug/project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -51,70 +51,70 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 project/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 project/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug"/>
+				<Option working_dir="/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug"/>
+				<Option working_dir="/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Downloads/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/lucaletroye/Desktop/start_code(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/lucaletroye/Downloads/start_code(1)/Entity.cpp">
+		<Unit filename="/Users/lucaletroye/Desktop/start_code(1)/Entity.cpp">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/Users/lucaletroye/Downloads/start_code(1)/Entity.h">
+		<Unit filename="/Users/lucaletroye/Desktop/start_code(1)/Entity.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/Users/lucaletroye/Downloads/start_code(1)/Game.cpp">
+		<Unit filename="/Users/lucaletroye/Desktop/start_code(1)/Game.cpp">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/Users/lucaletroye/Downloads/start_code(1)/Game.h">
+		<Unit filename="/Users/lucaletroye/Desktop/start_code(1)/Game.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/Users/lucaletroye/Downloads/start_code(1)/Room.cpp">
+		<Unit filename="/Users/lucaletroye/Desktop/start_code(1)/Room.cpp">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/Users/lucaletroye/Downloads/start_code(1)/Room.h">
+		<Unit filename="/Users/lucaletroye/Desktop/start_code(1)/Room.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/Users/lucaletroye/Downloads/start_code(1)/main.cpp">
+		<Unit filename="/Users/lucaletroye/Desktop/start_code(1)/main.cpp">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/Users/lucaletroye/Downloads/start_code(1)/CMakeLists.txt">
+		<Unit filename="/Users/lucaletroye/Desktop/start_code(1)/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/lucaletroye/Downloads/start_code(1)/../../../../usr/local/lib/cmake/SFML/SFMLConfig.cmake">
+		<Unit filename="/Users/lucaletroye/Desktop/start_code(1)/../../../../usr/local/lib/cmake/SFML/SFMLConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="/Users/lucaletroye/Downloads/start_code(1)/../../../../usr/local/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+		<Unit filename="/Users/lucaletroye/Desktop/start_code(1)/../../../../usr/local/lib/cmake/SFML/SFMLConfigDependencies.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="/Users/lucaletroye/Downloads/start_code(1)/../../../../usr/local/lib/cmake/SFML/SFMLConfigVersion.cmake">
+		<Unit filename="/Users/lucaletroye/Desktop/start_code(1)/../../../../usr/local/lib/cmake/SFML/SFMLConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="/Users/lucaletroye/Downloads/start_code(1)/../../../../usr/local/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+		<Unit filename="/Users/lucaletroye/Desktop/start_code(1)/../../../../usr/local/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="/Users/lucaletroye/Downloads/start_code(1)/../../../../usr/local/lib/cmake/SFML/SFMLSharedTargets.cmake">
+		<Unit filename="/Users/lucaletroye/Desktop/start_code(1)/../../../../usr/local/lib/cmake/SFML/SFMLSharedTargets.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\"/>
 		</Unit>
 	</Project>

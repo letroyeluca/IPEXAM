@@ -25,7 +25,7 @@ public:
     tuple<int, int> currentRoomMatrix;
     vector<vector<int>> roomGrid = vector<vector<int>>(10, vector<int>(10, -1));
     void PlayerMoveRoom();
-
+    void renderRoom();
 private:
     sf::RenderWindow* window;
     std::vector<Room*> rooms;

@@ -218,3 +218,6 @@ void Game::setCurrentRoom() {
     oldRoom->playerptr = nullptr;
 }
 
+
+
+

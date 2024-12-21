@@ -129,6 +129,7 @@ void Game::loadMap(const std::string& filename) {
             for (int indexroomsize = 0; indexroomsize < kamers[indexRooms].size(); indexroomsize++) {
                 for (int indexline = 0; indexline < kamers[indexRooms][indexroomsize].size(); indexline++) {
                     Entity* entity = nullptr;
+                    Entity* floor = nullptr;
                     Player* playerentity = nullptr;
                     switch (kamers[indexRooms][indexroomsize][indexline]) {
                         case '#':
@@ -144,10 +145,17 @@ void Game::loadMap(const std::string& filename) {
                             kamer->playerptr = playerentity;
                             break;
                         case '!':
+
+                            floor = new Floor();
+                            floor->setSprite("resources/floor.png");
+
                             entity = new Weapon();
                             entity->setSprite("resources/weapon.png");
                             break;
                         case '%':
+                            floor = new Floor();
+                            floor->setSprite("resources/floor.png");
+
                             entity = new Enemy();
                             entity->setSprite("resources/enemy.png");
                             break;
@@ -168,6 +176,12 @@ void Game::loadMap(const std::string& filename) {
                             playerentity->setPosition({posX, posY});
                             kamer->addEntity(playerentity);
                             currentRoom = kamer;
+                        }
+                        if(floor != nullptr){
+                            int posX = baseX + (indexline * 100);
+                            int posY = baseY + (indexroomsize * 100);
+                            floor->setPosition({posX, posY});
+                            kamer->addEntity(floor);
                         }
                     }
                 }

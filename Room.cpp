@@ -19,6 +19,8 @@ void Room::render(sf::RenderWindow* window) const {
 
 void Room::update(sf::Event * event) {
     vector<Entity*> walls;
+    vector<Entity*> Enemys;
+    bool enemykilled = false;
     Position oldplayerpos {0,0};
     bool kamercheck = false;
     for (Entity* entity : entities) {
@@ -37,6 +39,11 @@ void Room::update(sf::Event * event) {
             walls.push_back(wall);
         }
 
+        if (auto* enemy = dynamic_cast<Enemy*>(entity)){
+            Enemys.push_back(enemy);
+        }
+
+
     }
     for (Entity* entity : entities) {
         if (auto* weapon = dynamic_cast<Weapon*>(entity)) {
@@ -51,6 +58,9 @@ void Room::update(sf::Event * event) {
             if(this->playerptr->standsOn(enemy) && this->playerptr->getAttackPower() == 1){
                 this->removeEntity(enemy);
 
+                enemykilled = true;
+                entity->update(event);
+
             }
         }
     }
@@ -62,6 +72,14 @@ void Room::update(sf::Event * event) {
 
         }
     }
+
+    for(Entity* entity : Enemys){
+        if(entity->getPosition().x == playerptr->nieuwePos.x && entity->getPosition().y == playerptr->nieuwePos.y && this->playerptr->getAttackPower() == 0){
+            playerptr->setPosition(oldplayerpos);
+
+        }
+    }
+    //cout << this->playerptr->getPosition().x << "  " << this->playerptr->getPosition().y << endl;
 
 }
 

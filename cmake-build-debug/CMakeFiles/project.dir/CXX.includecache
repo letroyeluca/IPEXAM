@@ -6,47 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/Users/lucaletroye/Desktop/start_code(1)/Entity.cpp
-Entity.h
-/Users/lucaletroye/Desktop/start_code(1)/Entity.h
-iostream
--
-Game.h
-/Users/lucaletroye/Desktop/start_code(1)/Game.h
-
 /Users/lucaletroye/Desktop/start_code(1)/Entity.h
 iostream
 -
 SFML/Graphics.hpp
 -
 
-/Users/lucaletroye/Desktop/start_code(1)/Game.cpp
-Game.h
-/Users/lucaletroye/Desktop/start_code(1)/Game.h
+/Users/lucaletroye/Desktop/start_code(1)/Room.cpp
 Room.h
-/Users/lucaletroye/Desktop/start_code(1)/Room.h
-fstream
-/Users/lucaletroye/Desktop/start_code(1)/fstream
-iostream
-/Users/lucaletroye/Desktop/start_code(1)/iostream
-
-/Users/lucaletroye/Desktop/start_code(1)/Game.h
-Room.h
-/Users/lucaletroye/Desktop/start_code(1)/Room.h
-iostream
--
-tuple
--
-
 /Users/lucaletroye/Desktop/start_code(1)/Room.h
 Entity.h
 /Users/lucaletroye/Desktop/start_code(1)/Entity.h
 
-/Users/lucaletroye/Desktop/start_code(1)/main.cpp
-SFML/Graphics.hpp
--
-Game.h
-/Users/lucaletroye/Desktop/start_code(1)/Game.h
+/Users/lucaletroye/Desktop/start_code(1)/Room.h
+Entity.h
+/Users/lucaletroye/Desktop/start_code(1)/Entity.h
 
 /usr/local/include/SFML/Config.hpp
 TargetConditionals.h
